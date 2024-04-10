@@ -94,6 +94,7 @@ shear: 0.0
 perspective: 0.0
 flipud: 0.0
 fliplr: 0.5
+bgr: 0.0
 mosaic: 1.0
 mixup: 0.0
 copy_paste: 0.0
@@ -102,4 +103,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: runs\detect\train
+save_dir: C:\Users\JAGA2\Desktop\tfg\runs\detect\train
