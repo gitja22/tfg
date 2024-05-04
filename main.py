@@ -21,6 +21,10 @@ while True:
     # detectar objetos
     cv2.imshow("Detección en tiempo real", anotaciones)
 
+
+    
+
+
     # cerrar el programa
     if cv2.waitKey(1) == 27:
         break
