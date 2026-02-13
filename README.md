@@ -6,7 +6,10 @@
 # 3. Instalar requeriments.txt (Windows -> "pip install -r requeriments.txt")
 
 ### Comando para entrenar una nueva versión del modelo ###
-yolo task=detect mode=train epochs=100 data=data.yaml model=yolov8m.pt imgsz=640 batch= 4
+yolo task=detect mode=train epochs=100 data=data.yaml model=yolov8x.pt imgsz=640 batch= 4
 
-### comando para ejecutar la sección con contador ###
-python yolov8_region_counter.py --source "simulacion-sumo.mp4" --view-img
+### comando para ejecutar la sección con contador - VÍDEO ###
+python main.py --source "trafico_cruce.mp4" --view-img
+
+### comando para ejecutar la sección con contador - CÁMARA ###
+python main.py --source 0 --view-img --device 0

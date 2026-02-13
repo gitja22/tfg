@@ -1,0 +1,6 @@
+train: C:\Users\JAGA2\Desktop\tfg\datasetCarss\train\
+val: C:\Users\JAGA2\Desktop\tfg\datasetCarss\valid\
+test: C:\Users\JAGA2\Desktop\tfg\datasetCarss\test\
+
+nc: 1
+names: ['car']
