@@ -1,1 +1,6 @@
-/env/*
+/.venv/*
+/dataset/*
+/conteo/*
+/traci_tls/*
+/videos de prueba/*
+/runs/*
